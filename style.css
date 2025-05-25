@@ -1,0 +1,53 @@
+body {
+  background-color: #F6D050;
+}
+
+.card {
+  width: 350px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 15px;
+  border: black 2px solid;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+  -webkit-box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+  -moz-box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+.card .header {
+  margin-top: 20px;
+}
+.card .header .date {
+  color: rgb(74, 72, 72);
+}
+.card .body {
+  margin-top: 20px;
+}
+.card .footer {
+  margin-top: 20px;
+  display: flex;
+}
+.card .footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.card .footer p {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  background-color: #F6D050;
+  padding: 5px 15px;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
